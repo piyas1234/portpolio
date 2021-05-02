@@ -1,0 +1,31 @@
+.rightImgMeContainer{
+    width: 400px;
+    position: absolute;
+    
+}
+@media screen and (max-width: 768px){
+    .rightImgMeContainer{
+        display: none;
+    }
+}
+
+.e-row{
+    margin: 30px;
+}
+
+ 
+
+.e-partical{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.e-container{
+    height: 900px;
+}
+ 
+
+ 
