@@ -5,7 +5,7 @@ import SocialConnect from '../Home/components/UI/SocialConnect';
 import Button from '../Home/components/UI/Button';
 const MyResume = () => {
     return (
-        <div className="myResume col-md-10 offset-md-1">
+        <div className="myResume col-md-10 offset-md-1 bg-dark">
          <div className="row p-5">
              <div className="col-md-4 bg-primary">
                  <img width="200px" src={me} alt="" srcset=""/>

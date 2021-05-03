@@ -1,9 +1,12 @@
 import React from "react";
 import me from "../../../images/profile4.png";
+import me2 from "../../../images/profile.JPG";
 import Button from "../UI/Button";
 import "./style.css";
 import ParticlesBackground from "./ParticlesBackground";
 import AnimatedTitle from "./AnimatedTitle";
+import TinderSlide from "./TinderSlide";
+ 
 
  
 const Hero = (props) => {
@@ -19,8 +22,9 @@ const Hero = (props) => {
         <div className="flexRow flexCol justify-sb align-center">
           <div data-aos="fade-right">
            <div className="m-auto text-center meRightImgContainer">
-           <img className="text-center" style={{width:"100px", borderRadius:"200px",backgroundColor:"#16C79A",boxShadow:"0px 0px 100px 0px white"}} src={me} alt="" srcset=""/>
+           <img className="text-center" style={{width:"100px", borderRadius:"200px",backgroundColor:"white",boxShadow:"0px 0px 100px 0px white"}} src={me} alt="" srcset=""/>
            </div>
+           
          <AnimatedTitle></AnimatedTitle>
 
 
@@ -47,8 +51,8 @@ const Hero = (props) => {
             </div>
           </div>
           <div data-aos="fade-left">
-            <div className="meRightImgContainer ">
-              <img style={{width:"300px", borderRadius:"200px",backgroundColor:"",boxShadow:"0px 0px 100px 0px rgba(255, 0, 149, 1.24)"}} src={me} alt="" />
+            <div className="">
+              <TinderSlide></TinderSlide>
             </div>
           </div>
         </div>

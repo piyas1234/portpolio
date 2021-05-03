@@ -9,7 +9,16 @@ import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import Blog from '../Blog/Blog';
 import MyResume from '../myResume/MyResume';
- 
+import PrivateRoute from './PrivateRoute'
+
+import OrderList from '../Deshboard/OderList/OrderList';
+import MakeAdmin from '../Deshboard/MakeAdmin/MakeAdmin';
+import AddService from '../Deshboard/AddService/AddService';
+import ManageService from '../Deshboard/ManageService/ManageService';
+import Book from '../Deshboard/Customer/Book';
+import BookingList from '../Deshboard/Customer/BookingList';
+import Review from '../Deshboard/Customer/Review';
+import Services from '../Deshboard/Customer/Services';
 
  
 const Navlink = () => {
@@ -26,6 +35,13 @@ const Navlink = () => {
                 <Route exact path="/login"><Login></Login></Route>
                 <Route exact path="/signup"><Signup></Signup></Route>
                 <Route exact path="/contact"><Contact></Contact></Route>
+
+
+                <PrivateRoute exact path="/book"><Book></Book></PrivateRoute>
+                <PrivateRoute exact path="/book/:id"><Book></Book></PrivateRoute>
+                <PrivateRoute exact path="/bookinglist"><BookingList></BookingList></PrivateRoute>
+                <PrivateRoute exact path="/review"><Review></Review></PrivateRoute>
+                <PrivateRoute exact path="/deshboard"><Services></Services></PrivateRoute>
                  
                 <Route><NotFound></NotFound></Route>
             </Switch>
@@ -35,12 +51,12 @@ const Navlink = () => {
             <Switch>
                 <Route exact path="/"><Home></Home></Route>
                 <Route exact path="/login"><Login></Login></Route>
-                {/* <Route exact path="/signup"><Signup></Signup></Route> 
+                <Route exact path="/signup"><Signup></Signup></Route> 
                 <PrivateRoute exact path="/deshboard"><Services></Services></PrivateRoute>
                 <PrivateRoute exact path="/orderlist"><OrderList></OrderList></PrivateRoute>
                 <PrivateRoute exact path="/makeadmin"><MakeAdmin></MakeAdmin></PrivateRoute>
                 <PrivateRoute exact path="/addservices"><AddService></AddService></PrivateRoute>
-                <PrivateRoute exact path="/manageservices"><ManageService></ManageService></PrivateRoute> */}
+                <PrivateRoute exact path="/manageservices"><ManageService></ManageService></PrivateRoute>
                 <Route><NotFound></NotFound></Route>
             </Switch>
         </div>

@@ -1,13 +1,19 @@
 .b-container{
      margin-top: 90px;
+     margin-bottom: 90px;
      background-color:rgba(46, 5, 47, 0.157);
-     border-radius:10px
+     border-radius:10px;
+     box-shadow: 0px 0px 10px 0px white;
+     border:1px solid;
+     border: transparent;
 }
 
 .skill-card{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.089);
     padding: 10px;
     margin-top: 10px;
     border-radius: 5px;
-    box-shadow: 3px 3px 3px 3px  rgba(26, 1, 255, 0.205);
+    box-shadow: 0px 0px 5px 0px  rgb(255, 255, 255);
+    border:1px solid rgba(255, 255, 255, 0.479);
+    border-color: transparent;
 }

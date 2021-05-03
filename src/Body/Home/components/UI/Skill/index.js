@@ -24,7 +24,7 @@ const Skill = (props) => {
       </div>
 
       <div className="mlr-10">
-        <p className="font-16 bold-500 textColor mtb-10">{props.skillName}</p>
+        <p className="font-16 bold-500 mtb-10 text-white">{props.skillName}</p>
         <p className="font-14 bold-500 grey mtb-10">{props.desc}</p>
       </div>
     </div>

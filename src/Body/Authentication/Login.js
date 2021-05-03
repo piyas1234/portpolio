@@ -42,7 +42,7 @@ const Login = () => {
   };
   const { email, password } = inputData;
   return (
-    <div>
+    <div className="main-form">
       <div className="col-md-6 offset-md-3">
         <div className="form mt-5">
           {errMsg && (

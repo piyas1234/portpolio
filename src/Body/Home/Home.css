@@ -5,7 +5,7 @@
     font-family: 'Ubuntu', sans-serif;
   }
   .body{
-    background:linear-gradient(#0C0A53,rgb(255, 0, 191),rgb(122, 5, 255));
+    /* background:linear-gradient(#0C0A53,rgb(255, 0, 191),rgb(122, 5, 255)); */
     background-repeat: repeat;
     /* background-color:rgba(255, 0, 191, 0.534) */
   }
@@ -122,3 +122,11 @@
   }
   
   
+
+
+  .bg-shadow-all{
+      box-shadow:0px 0px 15px 0px white;
+      border:1px solid white;
+      border-style:transparent;       
+      background:linear-gradient(rgba(175, 1, 255, 0.061),rgba(255, 0, 212, 0.089),rgba(255, 0, 21, 0.116))
+  }

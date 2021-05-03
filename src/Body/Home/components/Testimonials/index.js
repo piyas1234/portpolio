@@ -15,7 +15,7 @@ import "./style.css";
 
 const Testimonials = (props) => {
   return (
-    <div className="container">
+    <div className="col-md-10 offset-md-1 bg-shadow-all p-5">
       <div data-aos="fade-down">
         <SmallHeading text="Testimonials" />
         <MediumHeading text="What people say" />
@@ -41,7 +41,7 @@ const Testimonials = (props) => {
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
             of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using  
+            
         
           </p>
         </Card>

@@ -20,24 +20,26 @@ const percentage = 70;
 const Expertise = (props) => {
   return (
     <div
-      className="e-container shadow-lg col-md-10 offset-md-1"
+      className="e-container col-md-10 offset-md-1 rounded bg-shadow-all"
+      style={{background:'linear-gradient(rgba(255, 0, 179, 0.171),rgba(204, 0, 255, 0.335),rgba(132, 0, 255, 0.623))'}}
       
     >
-       <Particlesbg></Particlesbg>
+      
+       <Particlesbg></Particlesbg> 
       <div className="e-partical">
-      <div className="">
+      <div className="m-5">
         <SmallHeading text="Expertise" />
         <MediumHeading text="Special Skills" />
       </div>
       <div className="row e-row">
         <div data-aos="fade-right" className="col-md-6">
           <div className="w-75 mt-5">
-          <img className=" bg-white rounded-circle" width="100%" src={me} alt-="" />
+          <img className="rounded-circle" width="100%" src={me} alt-="" />
           </div>
         </div>
 
         <div className="col-md-6 mt-5">
-          <Card data-aos="flip-up" >
+          <div data-aos="flip-up" >
           <div className="p-4" >
               <div className="w-75">
                 <CircularProgressbar
@@ -54,7 +56,7 @@ const Expertise = (props) => {
               JavaScript is one of the greatest programming language.
             </p>
           </div>
-          </Card>
+          </div>
         </div>
       </div>
       </div>

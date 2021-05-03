@@ -1,12 +1,13 @@
- import React from 'react';
+import React from 'react';
 import ProjectList from './ProjectList';
 import ProjectPartical from './ProjectPartical';
- import './style.css'
+ 
  const Projects = () => {
      return (
-         <div   className="project-main">
+         <div className="">
              <ProjectPartical></ProjectPartical>
              <ProjectList></ProjectList>
+ 
          </div>
      );
  };

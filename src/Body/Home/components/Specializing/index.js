@@ -101,9 +101,9 @@ const Specializing = (props) => {
   ];
 
   return (
-    <div className="b-container shadow-lg col-md-10 offset-md-1">
+    <div className="b-container col-md-10 offset-md-1 bg-shadow-all">
       <div style={{ padding: "50px" }}>
-         <div className="shadow">
+         <div>
          <SmallHeading text="What I do" />
         <MediumHeading text="Specializing in" />
          </div>

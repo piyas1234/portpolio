@@ -15,17 +15,17 @@ import "./style.css";
 const LatestProjects = (props) => {
   return (
     <div
-      className="container"
+      className="col-md-10 offset-md-1 p-5 bg-shadow-all"
       style={{ marginTop: "50px", marginBottom: "50px" }}
       data-aos="zoom-in-up"
     >
-      <Card className="flexRow flexCol align-center justify-sb">
-        <div className="projectPortfolioContainer">
-          <SmallHeading text="portfolios" />
+      <SmallHeading text="portfolios" />
           <MediumHeading
             style={{ textTransform: "uppercase" }}
             text="Latest Projects"
           />
+      <Card className="flexRow flexCol align-center justify-sb">
+        <div className="projectPortfolioContainer">
           <div className="mtb-10 flexRow" style={{ justifyContent: "center" }}>
             <Button label="Portfolios" />
           </div>
